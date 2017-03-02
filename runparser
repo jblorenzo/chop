@@ -1,0 +1,4 @@
+#!/bin/sh
+
+chmod +x NinjaLogParsing.playground/Contents.swift
+./NinjaLogParsing.playground/Contents.swift panamera.log

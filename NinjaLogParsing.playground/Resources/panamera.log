@@ -1,0 +1,678 @@
+objc[83968]: Class PLBuildVersion is implemented in both /Applications/Xcode-8.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x11fff1998) and /Applications/Xcode-8.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x11fe13880). One of the two will be used. Which one is undefined.
+objc[83968]: Class NANReachability is implemented in both /Users/john/Library/Developer/CoreSimulator/Devices/D212A643-3B6B-4D6D-9197-E1F6E9308BA5/data/Containers/Bundle/Application/B1925321-90AC-4363-9F25-A0DED3C903DC/Letgo.app/Frameworks/NCNinja.framework/NCNinja (0x111b97030) and /Users/john/Library/Developer/CoreSimulator/Devices/D212A643-3B6B-4D6D-9197-E1F6E9308BA5/data/Containers/Bundle/Application/B1925321-90AC-4363-9F25-A0DED3C903DC/Letgo.app/Letgo (0x10f42aa08). One of the two will be used. Which one is undefined.
+objc[83968]: Class NANTracking is implemented in both /Users/john/Library/Developer/CoreSimulator/Devices/D212A643-3B6B-4D6D-9197-E1F6E9308BA5/data/Containers/Bundle/Application/B1925321-90AC-4363-9F25-A0DED3C903DC/Letgo.app/Frameworks/NCNinja.framework/NCNinja (0x111b970a8) and /Users/john/Library/Developer/CoreSimulator/Devices/D212A643-3B6B-4D6D-9197-E1F6E9308BA5/data/Containers/Bundle/Application/B1925321-90AC-4363-9F25-A0DED3C903DC/Letgo.app/Letgo (0x10f42aa80). One of the two will be used. Which one is undefined.
+objc[83968]: Class NANTrackingData is implemented in both /Users/john/Library/Developer/CoreSimulator/Devices/D212A643-3B6B-4D6D-9197-E1F6E9308BA5/data/Containers/Bundle/Application/B1925321-90AC-4363-9F25-A0DED3C903DC/Letgo.app/Frameworks/NCNinja.framework/NCNinja (0x111b970d0) and /Users/john/Library/Developer/CoreSimulator/Devices/D212A643-3B6B-4D6D-9197-E1F6E9308BA5/data/Containers/Bundle/Application/B1925321-90AC-4363-9F25-A0DED3C903DC/Letgo.app/Letgo (0x10f42aaa8). One of the two will be used. Which one is undefined.
+2017-03-01 16:21:37.679 Letgo[83968:7755956] New relic wasn't started: DEBUGGING
+2017-03-01 16:21:37.679 Letgo[83968:7755956] Crashlytics wasn't started: DEBUGGING
+2017-03-01 16:21:37.732154 Letgo[83968:7755956] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /Users/john/Library/Developer/CoreSimulator/Devices/D212A643-3B6B-4D6D-9197-E1F6E9308BA5/data/Containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-03-01 16:21:37.732634 Letgo[83968:7755956] [MC] Reading from private effective user settings.
+My Application Channel ID: Optional("6fea4fa8-fecc-441c-a1ad-cebe786ad913")
+2017-03-01 16:21:38.054065 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.054720 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.056950 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.058794 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.059720 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.060889 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.062221 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.063542 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.064888 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.066587 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.068372 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.069 Letgo[83968:7755956] [NCNinja]: doc dir: /Users/john/Library/Developer/CoreSimulator/Devices/D212A643-3B6B-4D6D-9197-E1F6E9308BA5/data/Containers/Data/Application/EF0BF4DB-1892-4685-AAE2-AC598124943E/Documents
+2017-03-01 16:21:38.070 Letgo[83968:7755956] [NCNinja]: doc dir: /Users/john/Library/Developer/CoreSimulator/Devices/D212A643-3B6B-4D6D-9197-E1F6E9308BA5/data/Containers/Data/Application/EF0BF4DB-1892-4685-AAE2-AC598124943E/Documents
+2017-03-01 16:21:38.071391 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.072 Letgo[83968:7755956] [NCNinja]: doc dir: /Users/john/Library/Developer/CoreSimulator/Devices/D212A643-3B6B-4D6D-9197-E1F6E9308BA5/data/Containers/Data/Application/EF0BF4DB-1892-4685-AAE2-AC598124943E/Documents
+2017-03-01 16:21:38.073470 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.155 Letgo[83968:7756898] [NCNinja]: Tracking: start
+Parameters: (null)
+MIXPANEL DISTICT ID: letgosi_8ce924c51f476c654d7aa61e02122a5c704debfac469df8294
+MIXPANEL DISTICT ID: letgosi_8ce924c51f476c654d7aa61e02122a5c704debfac469df8294
+2017-03-01 16:21:38.160 Letgo[83968:7755956] siteCode for Tracking: letgosi
+2017-03-01 16:21:38.162 Letgo[83968:7756898] Mixpanel:: Tracking [eventName=start&tN=e&c=1&cl=7&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&ninjaVer=1.0.0&v=10.2-5.1.1&sl=478EA799-C946-4447-BEAC-35ED2473DC33&s=15a897f2f2cxa5e2277b]
+2017-03-01 16:21:38.163 Letgo[83968:7755956] Apptoken: 8ce924c51f476c654d7aa61e02122a5c704debfac469df8294
+2017-03-01 16:21:38.163 Letgo[83968:7756889] HYDRA:: Tracking [eventName=start&extra={    c = 1;    cl = 7;    gaid = "F5B400AB-20EC-46E9-975F-5CAFA93DD576";    ninjaVer = "1.0.0";    s = 15a897f2f2cxa5e2277b;    sl = "478EA799-C946-4447-BEAC-35ED2473DC33";    tN = e;    v = "10.2-5.1.1";}]
+CRASHLYTICS device_token 8ce924c51f476c654d7aa61e02122a5c704debfac469df8294
+CRASHLYTICS site_code letgosi
+2017-03-01 16:21:38.165 Letgo[83968:7756898] ATI:: Tracking [eventName=start&tN=e&c=1&cl=7&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&ninjaVer=1.0.0&v=10.2-5.1.1&sl=478EA799-C946-4447-BEAC-35ED2473DC33&s=15a897f2f2cxa5e2277b]
+2017-03-01 16:21:38.167 Letgo[83968:7756898] Mixpanel:: Tracking [eventName=start&tN=e&c=1&cl=7&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&ninjaVer=1.0.0&v=10.2-5.1.1&sl=478EA799-C946-4447-BEAC-35ED2473DC33&s=15a897f2f2cxa5e2277b&event=user]
+2017-03-01 16:21:38.174 Letgo[83968:7756898] [NCNinja]: Tracking: error
+Parameters: {
+    message = "Launch options object is nil";
+    method = start;
+    tracker = Mixpanel;
+}
+2017-03-01 16:21:38.175 Letgo[83968:7756931] HYDRA:: Tracking [eventName=error&extra={    c = 2;    cC = SI;    channel = "6fea4fa8-fecc-441c-a1ad-cebe786ad913";    cl = 7;    gaid = "F5B400AB-20EC-46E9-975F-5CAFA93DD576";    message = "Launch options object is nil";    method = start;    ninjaVer = "1.0.0";    s = 15a897f2f2cxa5e2277b;    sl = "478EA799-C946-4447-BEAC-35ED2473DC33";    tN = r;    tracker = Mixpanel;    v = "10.2-5.1.1";}]
+2017-03-01 16:21:38.200910 Letgo[83968:7756931] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.206031 Letgo[83968:7756931] [] ____nwlog_simulate_crash_inner_block_invoke dlopen CrashReporterSupport failed
+2017-03-01 16:21:38.206408 Letgo[83968:7756931] [] __nwlog_err_simulate_crash simulate crash failed "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:38.207724 Letgo[83968:7756931] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+$ curl -i \
+	-H "User-Agent: iPhone App Ver [5.1.1]" \
+	-H "Accept-Encoding: gzip;q=1.0, compress;q=0.5" \
+	-H "X-Origin-OLX: Testing" \
+	-H "Accept-Language: en;q=1.0" \
+	"https://letgosi-a.akamaihd.net/i2/ajax/definitions/?json=1&app_ios=176&brand=letgo&client=ios&version=176&token=8ce924c51f476c654d7aa61e02122a5c704debfac469df8294&location=46.1202392,14.8206644&lang=en"
+2017-03-01 16:21:38.507045 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.507464 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.508694 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.508 Letgo[83968:7756889] [NCNinja]: Tracking: app_open
+Parameters: {
+    brand = olx;
+    "business_region" = latam;
+    cC = SI;
+    "facebook_id" = 727288057404950;
+    language = en;
+    lat = "46.1202392";
+    long = "14.8206644";
+    "platform_type" = ios;
+    rE = p;
+    ts = "1488365498.50804";
+    "user_status" = anonymous;
+    "user_type" = 2;
+}
+2017-03-01 16:21:38.509 Letgo[83968:7756929] HYDRA:: Tracking [eventName=app_open&lat=46.1202392&long=14.8206644&extra={    bR = olx;    c = 3;    cC = SI;    channel = "6fea4fa8-fecc-441c-a1ad-cebe786ad913";    cl = 7;    "facebook_id" = 727288057404950;    gaid = "F5B400AB-20EC-46E9-975F-5CAFA93DD576";    language = en;    ninjaVer = "1.0.0";    rE = p;    s = 15a897f2f2cxa5e2277b;    sl = "478EA799-C946-4447-BEAC-35ED2473DC33";    tN = e;    v = "10.2-5.1.1";}]
+2017-03-01 16:21:38.509 Letgo[83968:7756889] Mixpanel:: Tracking [eventName=app_open&c=3&language=en&ts=1488365498.50804&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&v=10.2-5.1.1&long=14.8206644&cl=7&cC=SI&facebook_id=727288057404950&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&tN=e&user_type=2&user_status=anonymous&lat=46.1202392&business_region=latam&rE=p&sl=478EA799-C946-4447-BEAC-35ED2473DC33]
+2017-03-01 16:21:38.510 Letgo[83968:7756889] ATI:: Tracking [eventName=app_open&c=3&language=en&ts=1488365498.50804&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&v=10.2-5.1.1&long=14.8206644&cl=7&cC=SI&facebook_id=727288057404950&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&tN=e&user_type=2&user_status=anonymous&lat=46.1202392&business_region=latam&rE=p&sl=478EA799-C946-4447-BEAC-35ED2473DC33]
+2017-03-01 16:21:38.512076 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.511 Letgo[83968:7756889] Mixpanel:: Tracking [eventName=app_open&c=3&language=en&ts=1488365498.50804&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&v=10.2-5.1.1&long=14.8206644&cl=7&cC=SI&facebook_id=727288057404950&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&tN=e&user_type=2&user_status=anonymous&lat=46.1202392&business_region=latam&rE=p&sl=478EA799-C946-4447-BEAC-35ED2473DC33&event=visit]
+2017-03-01 16:21:38.517128 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.517 Letgo[83968:7755956] ChatHelper.updateConversationsWhenBecomeActive()
+2017-03-01 16:21:38.520 Letgo[83968:7755956] ChatHelper.sharedInstance.timerUpdaterHandler()
+2017-03-01 16:21:38.522309 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.524625 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.526233 Letgo[83968:7756898] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.534 Letgo[83968:7755956] [NCNinja]: Received notification: NSConcreteNotification 0x608000256ce0 {name = UIApplicationDidBecomeActiveNotification; object = <UIApplication: 0x7fa773f01350>}
+2017-03-01 16:21:38.534 Letgo[83968:7756898] [NCNinja]: Tracking: appOpn
+Parameters: (null)
+2017-03-01 16:21:38.536501 Letgo[83968:7756931] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.535 Letgo[83968:7756898] Mixpanel:: Tracking [eventName=appOpn&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&c=4&tN=e&cl=7&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&ninjaVer=1.0.0&cC=SI&v=10.2-5.1.1&sl=478EA799-C946-4447-BEAC-35ED2473DC33&s=15a897f2f2cxa5e2277b]
+2017-03-01 16:21:38.535 Letgo[83968:7756932] HYDRA:: Tracking [eventName=appOpn&extra={    c = 4;    cC = SI;    channel = "6fea4fa8-fecc-441c-a1ad-cebe786ad913";    cl = 7;    gaid = "F5B400AB-20EC-46E9-975F-5CAFA93DD576";    ninjaVer = "1.0.0";    s = 15a897f2f2cxa5e2277b;    sl = "478EA799-C946-4447-BEAC-35ED2473DC33";    tN = e;    v = "10.2-5.1.1";}]
+2017-03-01 16:21:38.542 Letgo[83968:7756898] ATI:: Tracking [eventName=appOpn&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&c=4&tN=e&cl=7&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&ninjaVer=1.0.0&cC=SI&v=10.2-5.1.1&sl=478EA799-C946-4447-BEAC-35ED2473DC33&s=15a897f2f2cxa5e2277b]
+2017-03-01 16:21:38.542 Letgo[83968:7756898] Mixpanel:: Tracking [eventName=appOpn&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&c=4&tN=e&cl=7&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&ninjaVer=1.0.0&cC=SI&v=10.2-5.1.1&sl=478EA799-C946-4447-BEAC-35ED2473DC33&s=15a897f2f2cxa5e2277b&event=user]
+2017-03-01 16:21:38.551239 Letgo[83968:7756931] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:38.551984 Letgo[83968:7756931] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:38.554860 Letgo[83968:7756931] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.566889 Letgo[83968:7756931] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:38.567610 Letgo[83968:7756931] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+$ curl -i \
+	-H "User-Agent: iPhone App Ver [5.1.1]" \
+	-H "Accept-Encoding: gzip;q=1.0, compress;q=0.5" \
+	-H "X-Origin-OLX: Testing" \
+	-H "Accept-Language: en;q=1.0" \
+	"https://letgosi-a.akamaihd.net/i2/ajax/ads/?json=1&app_ios=176&brand=letgo&client=ios&version=176&token=8ce924c51f476c654d7aa61e02122a5c704debfac469df8294&location=46.1202392,14.8206644&lang=en&search%5Blat%5D=46.1202392&search%5Blon%5D=14.8206644&search%5Border%5D=dist&search%5Bdistance%5D=20000"
+2017-03-01 16:21:38.615 Letgo[83968:7756898] [NCNinja]: Tracking: view_home
+Parameters: {
+    brand = olx;
+    "business_region" = latam;
+    cC = SI;
+    "facebook_id" = 727288057404950;
+    language = en;
+    lat = "46.1202392";
+    long = "14.8206644";
+    "platform_type" = ios;
+    rE = p;
+    ts = "1488365498.61536";
+    "user_status" = anonymous;
+    "user_type" = 2;
+}
+2017-03-01 16:21:38.616 Letgo[83968:7756898] Mixpanel:: Tracking [eventName=view_home&c=5&language=en&ts=1488365498.61536&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&v=10.2-5.1.1&long=14.8206644&cl=7&cC=SI&facebook_id=727288057404950&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&tN=p&user_type=2&user_status=anonymous&lat=46.1202392&business_region=latam&rE=p&sl=478EA799-C946-4447-BEAC-35ED2473DC33]
+2017-03-01 16:21:38.616 Letgo[83968:7756889] HYDRA:: Tracking [eventName=view_home&lat=46.1202392&long=14.8206644&extra={    bR = olx;    c = 5;    cC = SI;    channel = "6fea4fa8-fecc-441c-a1ad-cebe786ad913";    cl = 7;    "facebook_id" = 727288057404950;    gaid = "F5B400AB-20EC-46E9-975F-5CAFA93DD576";    language = en;    ninjaVer = "1.0.0";    rE = p;    s = 15a897f2f2cxa5e2277b;    sl = "478EA799-C946-4447-BEAC-35ED2473DC33";    tN = p;    v = "10.2-5.1.1";}]
+2017-03-01 16:21:38.618 Letgo[83968:7756898] ATI:: Tracking [eventName=view_home&c=5&language=en&ts=1488365498.61536&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&v=10.2-5.1.1&long=14.8206644&cl=7&cC=SI&facebook_id=727288057404950&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&tN=p&user_type=2&user_status=anonymous&lat=46.1202392&business_region=latam&rE=p&sl=478EA799-C946-4447-BEAC-35ED2473DC33]
+2017-03-01 16:21:38.619 Letgo[83968:7756898] Mixpanel:: Tracking [eventName=view_home&c=5&language=en&ts=1488365498.61536&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&v=10.2-5.1.1&long=14.8206644&cl=7&cC=SI&facebook_id=727288057404950&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&tN=p&user_type=2&user_status=anonymous&lat=46.1202392&business_region=latam&rE=p&sl=478EA799-C946-4447-BEAC-35ED2473DC33&event=user]
+2017-03-01 16:21:38.700303 Letgo[83968:7756931] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.705448 Letgo[83968:7756931] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:38.706980 Letgo[83968:7756931] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:38.710135 Letgo[83968:7756929] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.718163 Letgo[83968:7756929] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:38.718754 Letgo[83968:7756929] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:38.822 Letgo[83968:7755956] Conversations not read: 0
+$ curl -i \
+	-H "User-Agent: iPhone App Ver [5.1.1]" \
+	-H "Accept-Encoding: gzip;q=1.0, compress;q=0.5" \
+	-H "X-Origin-OLX: Testing" \
+	-H "Accept-Language: en;q=1.0" \
+	"http://location.apps.olx.com/countries/?brand=letgo&client=ios&lat=0&lng=0"
+2017-03-01 16:21:38.837 Letgo[83968:7755956] siteCode for Tracking: letgosi
+$ curl -i \
+	-H "User-Agent: iPhone App Ver [5.1.1]" \
+	-H "Accept-Encoding: gzip;q=1.0, compress;q=0.5" \
+	-H "X-Origin-OLX: Testing" \
+	-H "Accept-Language: en;q=1.0" \
+	"https://letgosi-a.akamaihd.net/i2/ajax/ads/?json=1&app_ios=176&brand=letgo&client=ios&version=176&token=8ce924c51f476c654d7aa61e02122a5c704debfac469df8294&location=46.1202392,14.8206644&lang=en&search%5Blat%5D=46.1202392&search%5Blon%5D=14.8206644&search%5Border%5D=dist&search%5Bdistance%5D=20000"
+2017-03-01 16:21:38.855 Letgo[83968:7755956] ChatHelper.updateConversationsWhenBecomeActive()
+2017-03-01 16:21:38.863 Letgo[83968:7755956] ChatHelper.sharedInstance.timerUpdaterHandler()
+2017-03-01 16:21:38.896815 Letgo[83968:7756929] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.899815 Letgo[83968:7756929] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:38.968652 Letgo[83968:7756886] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:39.017489 Letgo[83968:7756886] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:39.018149 Letgo[83968:7756886] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:39.152642 Letgo[83968:7756913] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:39.157468 Letgo[83968:7756913] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:39.158569 Letgo[83968:7756913] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:39.292602 Letgo[83968:7756927] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:39.295456 Letgo[83968:7756927] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:39.295906 Letgo[83968:7756927] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:39.297635 Letgo[83968:7756927] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:39.300557 Letgo[83968:7756927] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:39.301000 Letgo[83968:7756927] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:39.353909 Letgo[83968:7756930] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:39.358211 Letgo[83968:7756930] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:39.359706 Letgo[83968:7756930] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:39.463962 Letgo[83968:7756930] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:39.464363 Letgo[83968:7756930] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:39.466069 Letgo[83968:7756930] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:39.469046 Letgo[83968:7756930] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:39.469630 Letgo[83968:7756930] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:40.521 Letgo[83968:7756930] [NCNinja]: Tracking: view_listings
+Parameters: {
+    "ads_on_page" = 20;
+    brand = olx;
+    "business_region" = latam;
+    cC = SI;
+    "category_id" =     (
+    );
+    "facebook_id" = 727288057404950;
+    impressions =     (
+        138900,
+        138765,
+        138683,
+        138685,
+        138691,
+        138692,
+        138731,
+        138746,
+        138757,
+        138773,
+        138892,
+        138828,
+        138837,
+        138849,
+        108902,
+        138864,
+        138872,
+        138877,
+        138884,
+        138601
+    );
+    language = en;
+    lat = "46.1202392";
+    long = "14.8206644";
+    mv = "1.0.0";
+    "page_number" = 1;
+    "platform_type" = ios;
+    rE = p;
+    "result_count" = 85739;
+    "resultset_type" = browse;
+    "total_pages" = 500;
+    ts = "1488365500.52005";
+    "user_status" = anonymous;
+    "user_type" = 2;
+}
+2017-03-01 16:21:40.522 Letgo[83968:7756886] HYDRA:: Tracking [eventName=view_listings&bR=olx&page_number=1&business_region=latam&rE=p&extra={    "ads_on_page" = 20;    c = 6;    cl = 7;    language = en;    mv = "1.0.0";    ninjaVer = "1.0.0";    s = 15a897f2f2cxa5e2277b;    sl = "478EA799-C946-4447-BEAC-35ED2473DC33";    tN = p;}&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&long=14.8206644&lat=46.1202392&resultset_type=browse&cC=SI&total_pages=500&result_count=85739&v=10.2-5.1.1]
+2017-03-01 16:21:40.522 Letgo[83968:7756930] Mixpanel:: Tracking [eventName=view_listings&c=6&language=en&mv=1.0.0&ts=1488365500.52005&country_code=SI&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&resultset_type=browse&long=14.8206644&cl=7&ads_on_page=20&total_pages=500&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&page_number=1&user_type=2&user_status=anonymous&tN=p&lat=46.1202392&business_region=latam&sl=478EA799-C946-4447-BEAC-35ED2473DC33&result_count=85739]
+2017-03-01 16:21:40.527 Letgo[83968:7756930] ATI:: Tracking [eventName=view_listings&c=6&language=en&impressions=(    138900,    138765,    138683,    138685,    138691,    138692,    138731,    138746,    138757,    138773,    138892,    138828,    138837,    138849,    108902,    138864,    138872,    138877,    138884,    138601)&mv=1.0.0&ts=1488365500.52005&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&v=10.2-5.1.1&long=14.8206644&resultset_type=browse&cC=SI&cl=7&ads_on_page=20&facebook_id=727288057404950&total_pages=500&tN=p&page_number=1&user_type=2&user_status=anonymous&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&lat=46.1202392&business_region=latam&rE=p&category_id=()&sl=478EA799-C946-4447-BEAC-35ED2473DC33&result_count=85739]
+2017-03-01 16:21:40.528 Letgo[83968:7756930] Mixpanel:: Tracking [eventName=view_listings&c=6&language=en&mv=1.0.0&ts=1488365500.52005&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&resultset_type=browse&ads_on_page=20&long=14.8206644&cC=SI&cl=7&v=10.2-5.1.1&facebook_id=727288057404950&total_pages=500&tN=p&page_number=1&user_type=2&user_status=anonymous&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&lat=46.1202392&business_region=latam&rE=p&sl=478EA799-C946-4447-BEAC-35ED2473DC33&result_count=85739&event=user]
+$ curl -i \
+	-H "User-Agent: iPhone App Ver [5.1.1]" \
+	-H "Accept-Encoding: gzip;q=1.0, compress;q=0.5" \
+	-H "X-Origin-OLX: Testing" \
+	-H "Accept-Language: en;q=1.0" \
+	"https://letgosi-a.akamaihd.net/i2/ajax/token/bindapple/?json=1&app_ios=176&brand=letgo&client=ios&version=176&token=8ce924c51f476c654d7aa61e02122a5c704debfac469df8294&location=46.1202392,14.8206644&lang=en&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&device=iosdevice"
+2017-03-01 16:21:40.627 Letgo[83968:7756930] [NCNinja]: Tracking: ua_reg
+Parameters: {
+    brand = olx;
+    "business_region" = latam;
+    cC = SI;
+    "facebook_id" = 727288057404950;
+    language = en;
+    lat = "46.1202392";
+    long = "14.8206644";
+    mv = "1.0.0";
+    "platform_type" = ios;
+    rE = p;
+    ts = "1488365500.62591";
+    "user_status" = anonymous;
+    "user_type" = 2;
+}
+2017-03-01 16:21:40.628 Letgo[83968:7756913] HYDRA:: Tracking [eventName=ua_reg&long=14.8206644&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&business_region=latam&extra={    c = 7;    cl = 7;    language = en;    mv = "1.0.0";    ninjaVer = "1.0.0";    s = 15a897f2f2cxa5e2277b;    sl = "478EA799-C946-4447-BEAC-35ED2473DC33";    tN = e;}&bR=olx&cC=SI&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&v=10.2-5.1.1&lat=46.1202392&rE=p]
+2017-03-01 16:21:40.628 Letgo[83968:7756930] Mixpanel:: Tracking [eventName=ua_reg&user_status=anonymous&business_region=latam&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&long=14.8206644&brand=olx&mv=1.0.0&c=7&sl=478EA799-C946-4447-BEAC-35ED2473DC33&cl=7&s=15a897f2f2cxa5e2277b&platform_type=ios&language=en&lat=46.1202392&tN=e&ts=1488365500.62591&country_code=SI&ninjaVer=1.0.0&user_type=2]
+2017-03-01 16:21:40.628 Letgo[83968:7756930] ATI:: Tracking [eventName=ua_reg&c=7&language=en&mv=1.0.0&ts=1488365500.62591&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&v=10.2-5.1.1&long=14.8206644&cC=SI&cl=7&facebook_id=727288057404950&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&tN=e&user_type=2&user_status=anonymous&lat=46.1202392&business_region=latam&rE=p&sl=478EA799-C946-4447-BEAC-35ED2473DC33]
+2017-03-01 16:21:40.629 Letgo[83968:7756886] [NCNinja]: Send action triggered by event
+2017-03-01 16:21:40.631 Letgo[83968:7756930] Mixpanel:: Tracking [eventName=ua_reg&c=7&language=en&mv=1.0.0&ts=1488365500.62591&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&v=10.2-5.1.1&long=14.8206644&cC=SI&cl=7&facebook_id=727288057404950&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&tN=e&user_type=2&user_status=anonymous&lat=46.1202392&business_region=latam&rE=p&sl=478EA799-C946-4447-BEAC-35ED2473DC33&event=user]
+2017-03-01 16:21:40.647 Letgo[83968:7756929] [NCNinja]: Sending data for 7 events:
+{
+  "tracks" : [
+    "extra={\"tN\":\"e\",\"c\":\"1\",\"cl\":\"7\",\"gaid\":\"F5B400AB-20EC-46E9-975F-5CAFA93DD576\",\"ninjaVer\":\"1.0.0\",\"v\":\"10.2-5.1.1\",\"sl\":\"478EA799-C946-4447-BEAC-35ED2473DC33\",\"s\":\"15a897f2f2cxa5e2277b\"}&eN=start",
+    "extra={\"method\":\"start\",\"message\":\"Launch_options_object_is_nil\",\"channel\":\"6fea4fa8-fecc-441c-a1ad-cebe786ad913\",\"gaid\":\"F5B400AB-20EC-46E9-975F-5CAFA93DD576\",\"c\":\"2\",\"sl\":\"478EA799-C946-4447-BEAC-35ED2473DC33\",\"cl\":\"7\",\"s\":\"15a897f2f2cxa5e2277b\",\"cC\":\"SI\",\"tN\":\"r\",\"tracker\":\"Mixpanel\",\"v\":\"10.2-5.1.1\",\"ninjaVer\":\"1.0.0\"}&eN=error",
+    "long=14.8206644&extra={\"bR\":\"olx\",\"rE\":\"p\",\"facebook_id\":\"727288057404950\",\"channel\":\"6fea4fa8-fecc-441c-a1ad-cebe786ad913\",\"gaid\":\"F5B400AB-20EC-46E9-975F-5CAFA93DD576\",\"c\":\"3\",\"sl\":\"478EA799-C946-4447-BEAC-35ED2473DC33\",\"cl\":\"7\",\"s\":\"15a897f2f2cxa5e2277b\",\"cC\":\"SI\",\"language\":\"en\",\"tN\":\"e\",\"v\":\"10.2-5.1.1\",\"ninjaVer\":\"1.0.0\"}&lat=46.1202392&eN=app_open",
+    "extra={\"channel\":\"6fea4fa8-fecc-441c-a1ad-cebe786ad913\",\"c\":\"4\",\"tN\":\"e\",\"cl\":\"7\",\"gaid\":\"F5B400AB-20EC-46E9-975F-5CAFA93DD576\",\"ninjaVer\":\"1.0.0\",\"cC\":\"SI\",\"v\":\"10.2-5.1.1\",\"sl\":\"478EA799-C946-4447-BEAC-35ED2473DC33\",\"s\":\"15a897f2f2cxa5e2277b\"}&eN=appOpn",
+    "extra={\"bR\":\"olx\",\"rE\":\"p\",\"facebook_id\":\"727288057404950\",\"channel\":\"6fea4fa8-fecc-441c-a1ad-cebe786ad913\",\"gaid\":\"F5B400AB-20EC-46E9-975F-5CAFA93DD576\",\"c\":\"5\",\"sl\":\"478EA799-C946-4447-BEAC-35ED2473DC33\",\"cl\":\"7\",\"s\":\"15a897f2f2cxa5e2277b\",\"cC\":\"SI\",\"language\":\"en\",\"tN\":\"p\",\"v\":\"10.2-5.1.1\",\"ninjaVer\":\"1.0.0\"}&lat=46.1202392&long=14.8206644&eN=view_home",
+    "rE=p&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&bR=olx&resultset_type=browse&long=14.8206644&cC=SI&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&v=10.2-5.1.1&total_pages=500&business_region=latam&result_count=85739&lat=46.1202392&extra={\"tN\":\"p\",\"c\":\"6\",\"cl\":\"7\",\"ads_on_page\":\"20\",\"ninjaVer\":\"1.0.0\",\"language\":\"en\",\"mv\":\"1.0.0\",\"sl\":\"478EA799-C946-4447-BEAC-35ED2473DC33\",\"s\":\"15a897f2f2cxa5e2277b\"}&page_number=1&eN=view_listings",
+    "long=14.8206644&v=10.2-5.1.1&lat=46.1202392&bR=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&extra={\"tN\":\"e\",\"c\":\"7\",\"cl\":\"7\",\"ninjaVer\":\"1.0.0\",\"language\":\"en\",\"mv\":\"1.0.0\",\"sl\":\"478EA799-C946-4447-BEAC-35ED2473DC33\",\"s\":\"15a897f2f2cxa5e2277b\"}&cC=SI&rE=p&business_region=latam&eN=ua_reg"
+  ]
+}
+2017-03-01 16:21:40.679 Letgo[83968:7756889] [NCNinja]: Tracking: view_listings
+Parameters: {
+    "ads_on_page" = 20;
+    brand = olx;
+    "business_region" = latam;
+    cC = SI;
+    "category_id" =     (
+    );
+    "facebook_id" = 727288057404950;
+    impressions =     (
+        138900,
+        138765,
+        138683,
+        138685,
+        138691,
+        138692,
+        138731,
+        138746,
+        138757,
+        138773,
+        138892,
+        138828,
+        138837,
+        138849,
+        108902,
+        138864,
+        138872,
+        138877,
+        138884,
+        138601
+    );
+    language = en;
+    lat = "46.1202392";
+    long = "14.8206644";
+    mv = "1.0.0";
+    "page_number" = 1;
+    "platform_type" = ios;
+    rE = p;
+    "result_count" = 85739;
+    "resultset_type" = browse;
+    "total_pages" = 500;
+    ts = "1488365500.67882";
+    "user_status" = anonymous;
+    "user_type" = 2;
+}
+2017-03-01 16:21:40.680 Letgo[83968:7756889] Mixpanel:: Tracking [eventName=view_listings&c=8&language=en&mv=1.0.0&ts=1488365500.67882&country_code=SI&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&resultset_type=browse&long=14.8206644&cl=7&ads_on_page=20&total_pages=500&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&page_number=1&user_type=2&user_status=anonymous&tN=p&lat=46.1202392&business_region=latam&sl=478EA799-C946-4447-BEAC-35ED2473DC33&result_count=85739]
+2017-03-01 16:21:40.680 Letgo[83968:7756929] HYDRA:: Tracking [eventName=view_listings&bR=olx&page_number=1&business_region=latam&rE=p&extra={    "ads_on_page" = 20;    c = 8;    cl = 7;    language = en;    mv = "1.0.0";    ninjaVer = "1.0.0";    s = 15a897f2f2cxa5e2277b;    sl = "478EA799-C946-4447-BEAC-35ED2473DC33";    tN = p;}&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&long=14.8206644&lat=46.1202392&resultset_type=browse&cC=SI&total_pages=500&result_count=85739&v=10.2-5.1.1]
+2017-03-01 16:21:40.681 Letgo[83968:7756889] ATI:: Tracking [eventName=view_listings&c=8&language=en&impressions=(    138900,    138765,    138683,    138685,    138691,    138692,    138731,    138746,    138757,    138773,    138892,    138828,    138837,    138849,    108902,    138864,    138872,    138877,    138884,    138601)&mv=1.0.0&ts=1488365500.67882&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&v=10.2-5.1.1&long=14.8206644&resultset_type=browse&cC=SI&cl=7&ads_on_page=20&facebook_id=727288057404950&total_pages=500&tN=p&page_number=1&user_type=2&user_status=anonymous&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&lat=46.1202392&business_region=latam&rE=p&category_id=()&sl=478EA799-C946-4447-BEAC-35ED2473DC33&result_count=85739]
+2017-03-01 16:21:40.691 Letgo[83968:7756889] Mixpanel:: Tracking [eventName=view_listings&c=8&language=en&mv=1.0.0&ts=1488365500.67882&s=15a897f2f2cxa5e2277b&brand=olx&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&ninjaVer=1.0.0&platform_type=ios&resultset_type=browse&ads_on_page=20&long=14.8206644&cC=SI&cl=7&v=10.2-5.1.1&facebook_id=727288057404950&total_pages=500&tN=p&page_number=1&user_type=2&user_status=anonymous&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&lat=46.1202392&business_region=latam&rE=p&sl=478EA799-C946-4447-BEAC-35ED2473DC33&result_count=85739&event=user]
+2017-03-01 16:21:40.755419 Letgo[83968:7756889] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:40.755679 Letgo[83968:7756889] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:40.756271 Letgo[83968:7756889] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:40.759228 Letgo[83968:7756931] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:40.761637 Letgo[83968:7756931] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:40.762052 Letgo[83968:7756931] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:40.935282 Letgo[83968:7756931] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:40.935655 Letgo[83968:7756931] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:40.941550 Letgo[83968:7756889] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:40.944063 Letgo[83968:7756889] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:40.944620 Letgo[83968:7756889] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:40.945576 Letgo[83968:7756889] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:40.948008 Letgo[83968:7756889] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:40.948573 Letgo[83968:7756889] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:40.949603 Letgo[83968:7756889] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:40.952299 Letgo[83968:7756889] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:40.952691 Letgo[83968:7756889] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:40.953610 Letgo[83968:7756889] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:40.956012 Letgo[83968:7756889] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:40.956448 Letgo[83968:7756889] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:41.010955 Letgo[83968:7756927] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:41.014551 Letgo[83968:7756927] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:41.015314 Letgo[83968:7756927] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    9   libdispatch.dylib                   0x0000000115f1616c _dispatch_continuation_pop + 1091
+    10  libdispatch.dylib                   0x0000000115f2b1de _dispatch_source_latch_and_call + 195
+    11  libdispatch.dylib                   0x0000000115f23d79 _dispatch_source_invoke + 1098
+    12  libdispatch.dylib                   0x0000000115f180d8 _dispatch_queue_serial_drain + 941
+    13  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    14  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    15  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    16  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    17  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:41.747 Letgo[83968:7755956] Bind initialized: ok
+2017-03-01 16:21:42.233 Letgo[83968:7756889] [NCNinja]: HTTP response status code: 200
+2017-03-01 16:21:53.205397 Letgo[83968:7756929] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:53.211593 Letgo[83968:7756929] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:53.212449 Letgo[83968:7756929] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:53.359772 Letgo[83968:7756929] [] nw_host_stats_add_src recv too small, received 24, expected 28
+2017-03-01 16:21:53.362285 Letgo[83968:7756929] [] __nwlog_err_simulate_crash simulate crash already simulated "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2017-03-01 16:21:53.362732 Letgo[83968:7756929] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.30.16
+    0   libsystem_network.dylib             0x0000000116193666 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000116c9b006 nw_socket_add_input_handler + 3164
+    2   libnetwork.dylib                    0x0000000116c78555 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000116c77572 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000116c76298 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000116c91ae1 nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000116c91510 nw_endpoint_handler_start + 570
+    7   libnetwork.dylib                    0x0000000116ca91f9 nw_endpoint_resolver_start_next_child + 2240
+    8   libdispatch.dylib                   0x0000000115f10978 _dispatch_call_block_and_release + 12
+    9   libdispatch.dylib                   0x0000000115f3a0cd _dispatch_client_callout + 8
+    10  libdispatch.dylib                   0x0000000115f17e17 _dispatch_queue_serial_drain + 236
+    11  libdispatch.dylib                   0x0000000115f18b4b _dispatch_queue_invoke + 1073
+    12  libdispatch.dylib                   0x0000000115f1b385 _dispatch_root_queue_drain + 720
+    13  libdispatch.dylib                   0x0000000115f1b059 _dispatch_worker_thread3 + 123
+    14  libsystem_pthread.dylib             0x00000001162e34de _pthread_wqthread + 1129
+    15  libsystem_pthread.dylib             0x00000001162e1341 start_wqthread + 13
+2017-03-01 16:21:54.200 Letgo[83968:7755956] FBSDKLog: Failed to send AppEvents: Error Domain=com.facebook.sdk.core Code=8 "(null)" UserInfo={com.facebook.sdk:FBSDKGraphRequestErrorCategoryKey=0, com.facebook.sdk:FBSDKGraphRequestErrorHTTPStatusCodeKey=400, com.facebook.sdk:FBSDKErrorDeveloperMessageKey=(#100) App ID: 727288057404950, Identifiers must be alphanumeric and can include the characters _- as well as spaces.  They must also be between 2 and 40 characters in length.  The provided 'c' is not, com.facebook.sdk:FBSDKGraphRequestErrorGraphErrorCode=100, com.facebook.sdk:FBSDKGraphRequestErrorParsedJSONResponseKey={
+    body =     {
+        error =         {
+            code = 100;
+            "fbtrace_id" = FwdpCEqtQOR;
+            message = "(#100) App ID: 727288057404950, Identifiers must be alphanumeric and can include the characters _- as well as spaces.  They must also be between 2 and 40 characters in length.  The provided 'c' is not";
+            type = OAuthException;
+        };
+    };
+    code = 400;
+}}
+2017-03-01 16:21:59.040810 Letgo[83968:7756926] [] nw_endpoint_handler_add_write_request [8.1 168.1.82.41:443 failed socket-flow (satisfied)] cannot accept write requests
+2017-03-01 16:21:59.041548 Letgo[83968:7758026] [] __tcp_connection_write_eof_block_invoke Write close callback received error: [22] Invalid argument
+2017-03-01 16:22:10.706 Letgo[83968:7756929] [NCNinja]: Sending data for 1 events:
+{
+  "tracks" : [
+    "cC=SI&lat=46.1202392&resultset_type=browse&page_number=1&channel=6fea4fa8-fecc-441c-a1ad-cebe786ad913&result_count=85739&long=14.8206644&gaid=F5B400AB-20EC-46E9-975F-5CAFA93DD576&extra={\"tN\":\"p\",\"c\":\"8\",\"cl\":\"7\",\"ads_on_page\":\"20\",\"ninjaVer\":\"1.0.0\",\"language\":\"en\",\"mv\":\"1.0.0\",\"sl\":\"478EA799-C946-4447-BEAC-35ED2473DC33\",\"s\":\"15a897f2f2cxa5e2277b\"}&v=10.2-5.1.1&rE=p&bR=olx&total_pages=500&business_region=latam&eN=view_listings"
+  ]
+}
+2017-03-01 16:22:11.002 Letgo[83968:7756926] [NCNinja]: HTTP response status code: 200
