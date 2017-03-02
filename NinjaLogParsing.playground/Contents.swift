@@ -3,7 +3,7 @@
 // Swift 3.0
 // John Bennedict Lorenzo
 //
-// Usage: 
+// Usage:
 // $ chmod +x NinjaLogParsing.playground/Contents.swift
 // $ ./NinjaLogParsing.playground/Contents.swift <relative log path>
 
@@ -12,7 +12,7 @@ import Foundation
 typealias ParsedParameters = [String : String]
 typealias Logs = [String]
 
-enum NinjaParameters : String {
+enum NinjaParameter : String {
     case user_id
     case business_region
     case lat
@@ -45,6 +45,35 @@ enum NinjaParameters : String {
     case v
     case dt
     case ninjaver
+    
+    case ts
+    case platform_type
+    case language
+    case user_type
+    case region_name
+    case city_name
+    case district_name
+    
+    case first_app_launch
+    case first_app_launch_date
+    case installed_packages
+    case app_open_source
+    case facebook_id
+    case origin
+    
+    case login_method
+    
+    case eventName
+}
+
+enum NinjaEvent : String {
+    case app_install
+    case app_open
+    
+    case map_location_select
+    case map_location_complete
+    
+    case item_select
 }
 
 extension Collection where Indices.Iterator.Element == Index {
@@ -56,13 +85,17 @@ extension Collection where Indices.Iterator.Element == Index {
 
 protocol ParametersVerifier {
     var logs : Logs { get set }
-
-    func verifyParameters(parameters : ParsedParameters)
+    
+    //    var counts : [String:Int] { get set}
+    //    var required : [String] { get set }
+    
     func getReport() -> Logs
     func printReport()
-    mutating func checkAdId(n: String, parameters: ParsedParameters, logs : Logs)
-    mutating func checkEventtype(n: String, parameters: ParsedParameters, logs : Logs)
-    mutating func checkViewType(n: String, parameters: ParsedParameters, logs : Logs)
+    
+    mutating func verifyParameters(parameters : ParsedParameters)
+//    mutating func checkAdId(n: String, parameters: ParsedParameters, logs : Logs)
+//    mutating func checkEventtype(n: String, parameters: ParsedParameters, logs : Logs)
+//    mutating func checkViewType(n: String, parameters: ParsedParameters, logs : Logs)
 }
 
 extension ParametersVerifier where Self : NSObject {
@@ -74,38 +107,63 @@ extension ParametersVerifier where Self : NSObject {
     }
 }
 
-class CommonParametersVerifier : NSObject, ParametersVerifier {
+class InstallFlowVerifier : NSObject, ParametersVerifier {
     internal var logs: Logs = Logs()
-
-    var counts = [String:Int]()
-    var required = [
-        NinjaParameters.gaid.rawValue,
-        NinjaParameters.long.rawValue,
-        NinjaParameters.lat.rawValue,
-        NinjaParameters.bR.rawValue,
-        NinjaParameters.cC.rawValue,
-        NinjaParameters.v.rawValue,
-        NinjaParameters.v.rawValue,
-        NinjaParameters.city_id.rawValue,
-        NinjaParameters.region_id.rawValue,
-        NinjaParameters.district_id.rawValue,
-        NinjaParameters.business_region.rawValue
+    
+    var eventCount = [String:Int]()
+    var requiredEvents = [
+        NinjaEvent.app_install,
+        NinjaEvent.app_open,
     ]
     
-    internal func checkViewType(n: String, parameters: ParsedParameters, logs: Logs) {
-        
-    }
-
-    internal func checkEventtype(n: String, parameters: ParsedParameters, logs: Logs) {
-        
-    }
-
-    internal func checkAdId(n: String, parameters: ParsedParameters, logs: Logs) {
-        
-    }
-
     internal func getReport() -> Logs {
-        for param in required {
+        for event in requiredEvents.map({ $0.rawValue }) {
+            if let count = eventCount[event], count > 0 {
+                
+            } else {
+                logs.append("Event [\(event)] is missing.")
+            }
+        }
+        
+        return logs
+    }
+    
+    // Default verification method counts all the required objects
+    func verifyParameters(parameters: ParsedParameters) {
+        for event in requiredEvents.map({ $0.rawValue }) {
+            if let eventName = parameters[NinjaParameter.eventName.rawValue]
+                , eventName == event
+            {
+                if let count = eventCount[event] {
+                    eventCount[event] = count + 1
+                } else {
+                    eventCount[event] = 1
+                }
+            }
+        }
+    }
+}
+
+class CommonParametersVerifier : NSObject, ParametersVerifier {
+    internal var logs: Logs = Logs()
+    
+    var counts = [String:Int]()
+    var required = [
+        NinjaParameter.gaid,
+        NinjaParameter.long,
+        NinjaParameter.lat,
+        NinjaParameter.bR,
+        NinjaParameter.ts,
+        NinjaParameter.cC,
+        NinjaParameter.v,
+        NinjaParameter.city_id,
+        NinjaParameter.region_id,
+        NinjaParameter.district_id,
+        NinjaParameter.business_region
+    ]
+    
+    internal func getReport() -> Logs {
+        for param in required.map({ $0.rawValue }) {
             if let count = counts[param], count > 0 {
                 
             } else {
@@ -115,9 +173,10 @@ class CommonParametersVerifier : NSObject, ParametersVerifier {
         
         return logs
     }
-
-    internal func verifyParameters(parameters: ParsedParameters) {
-        for param in required {
+    
+    // Default verification method counts all the required objects
+    func verifyParameters(parameters: ParsedParameters) {
+        for param in required.map({ $0.rawValue }) {
             if let val = parameters[param]
                 , val.characters.count > 0 {
                 if let count = counts[param] {
@@ -170,6 +229,10 @@ func loadVerifiers() -> [ParametersVerifier] {
     var v = [ParametersVerifier]()
     
     v.append(CommonParametersVerifier())
+    v.append(InstallFlowVerifier())
+//    v.append(LocationFlowVerifier())
+//    v.append(RegisterLoginFlowVerifier())
+//    v.append(ReplyFlowVerifier())
     
     return v
 }
@@ -204,15 +267,13 @@ let lines = fileContents.components(separatedBy: "\n")
 for line in lines {
     if LogParser.isNinjaLine(s: line) {
         let parameters = LogParser.parametersFor(s: line)
-        for v in verifiers {
+        for var v in verifiers {
             v.verifyParameters(parameters: parameters)
         }
     }
-    
 }
 
-print("Report:")
-
 for v in verifiers {
+    print("Report for \(type(of: v)):")
     v.printReport()
 }
